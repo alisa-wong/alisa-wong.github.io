@@ -25,7 +25,7 @@ $title = "Alisa Wong";
         </div>
 
         <div class='box'>
-            <a href='projects/callbaxx.php'><img src='images/Yelp.png'></a>
+            <a href='projects/callbaxx.php'><img src='images/callbaxx.png'></a>
             <h2>The Callbaxx A Cappella</h2>
             <p>Visual Design</p>
         </div>

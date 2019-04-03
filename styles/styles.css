@@ -4,6 +4,17 @@ body {
     font-family: 'Crimson Text', serif;
 }
 
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
 /** Navigation Styling */
 nav {
     display: flex;
@@ -57,8 +68,9 @@ h2 {
     margin-bottom: 0px;
 }
 
-p {
+.home p {
     margin-top: 0px;
+    font-size: 16px;
 }
 
 .box {
@@ -92,17 +104,6 @@ p {
     margin: 100px 200px;
 }
 
-h1 {
-    font-family: Montserrat;
-    font-weight: normal;
-    font-size: 48px;
-    margin-bottom: 50px;
-}
-
-.project p {
-    font-size: 18px;
-}
-
 .photos {
     display: flex;
     flex-direction: row;
@@ -120,3 +121,24 @@ h1 {
     display: flex;
     justify-content: space-evenly;
 }
+
+/** About Styling */
+.about {
+    margin: 100px 50px;
+    display: flex;
+}
+
+#aboutImg {
+    width: 45%;
+    margin-right: 50px;
+}
+
+#aboutImg img {
+    width: 100%;
+    margin: 0px;
+}
+
+.about h1 {
+    margin: 0px;
+}
+
