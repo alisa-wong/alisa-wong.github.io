@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Crimson Text', serif;
+    margin: 0px;
 }
 
 p {
@@ -49,8 +50,9 @@ nav img {
     font-weight: bold;
 }
 
-a:hover {
+nav a:hover {
     font-weight: bold;
+    color: #FDE372;
 }
 
 /** Home Styling */
@@ -142,5 +144,35 @@ h2 {
 
 .about h1 {
     margin: 0px;
+}
+
+
+/** Footer Styling */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.mediaIcon {
+    position: relative;
+    margin: 30px;
+}
+
+.mediaIcon img {
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+footer img {
+    margin: auto 5px;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    width: 30px;
+}
+
+.top:hover {
+    opacity: 0;
 }
 
