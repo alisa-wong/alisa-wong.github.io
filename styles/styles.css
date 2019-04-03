@@ -16,6 +16,11 @@ h1 {
     margin-bottom: 50px;
 }
 
+a:link, a:visited {
+    color: #FDE372;
+    text-decoration: none;
+}
+
 /** Navigation Styling */
 #nav {
     display: flex;
@@ -128,12 +133,14 @@ h2 {
 
 /** About Styling */
 .about {
-    margin: 100px 50px;
+    margin: 100px 100px;
+}
+
+.aboutTop {
     display: flex;
 }
 
 #aboutImg {
-    width: 45%;
     margin-right: 50px;
 }
 
@@ -142,10 +149,20 @@ h2 {
     margin: 0px;
 }
 
-.about h1 {
+#aboutTxt {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.about h1, .aboutTop p {
     margin: 0px;
 }
 
+.about h2 {
+    margin: 0px 0px 20px 0px;
+}
 
 /** Footer Styling */
 footer {
