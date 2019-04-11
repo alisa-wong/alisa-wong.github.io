@@ -131,6 +131,27 @@ h2 {
     justify-content: space-evenly;
 }
 
+.construction {
+    margin: auto;
+    width: 615px;
+}
+
+h1.construction {
+    margin-top: 50px;
+}
+
+p.construction {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.construction a:link, .construction a:visited {
+    color: #FDE372;
+}
+
+.construction a:hover {
+    color: black;
+}
 /** About Styling */
 .about {
     margin: 100px 100px;
