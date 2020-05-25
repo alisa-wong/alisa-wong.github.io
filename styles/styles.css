@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:semi-bold,light|Crimson+Text');
 
+/** Reconstruction */
+
+div#temp {
+    margin: 150px 0px 350px 100px;
+}
+
+/** End */
+
 body {
     font-family: 'Crimson Text', serif;
     margin: 0px;
