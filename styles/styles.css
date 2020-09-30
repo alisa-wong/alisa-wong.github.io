@@ -140,17 +140,13 @@ h2 {
 }
 
 .construction {
-    margin: auto;
+    margin-top: 100px;
+    margin-left: 200px;
     width: 615px;
 }
 
-h1.construction {
-    margin-top: 50px;
-}
-
-p.construction {
-    margin-top: 20px;
-    margin-bottom: 50px;
+.construction h1 {
+    margin-bottom: 10px;
 }
 
 .construction a:link, .construction a:visited {
